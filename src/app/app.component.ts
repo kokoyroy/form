@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'form';
+  topics = ['angular', 'react', 'vue'];
+
+  user = {
+    name: '',
+    email: '',
+    tel: '',
+    interest: '',
+    dateOfBirth: ''
+  };
+
 }
